@@ -1,0 +1,35 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  text-align: center;
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  padding: 10px;
+  font-size: 25px;
+}
+.Image {
+  width: 200px;
+}
+@media (min-width: '768px') {
+  .Heading {
+    color: #f8fafc;
+    font-family: Roboto;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .Image {
+    width: 300px;
+  }
+}
